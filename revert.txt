@@ -1,1 +1,2 @@
 trying make revert
+view diff local and origin branches
