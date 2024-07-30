@@ -37,6 +37,7 @@ header {
     align-content: stretch;
     justify-content: center;
     align-items: center;
+    color: #FFEFCD;
 }
 
 .menu {
@@ -61,7 +62,7 @@ header {
 }
 
 header a {
-    color: #FFEFCD;
+    color: inherit;
 }
 
 main {
@@ -69,23 +70,29 @@ main {
     flex-direction: column;
     height: 678px;
     background: #FFEFCD;
-    /*justify-content: center;*/
-    /*justify-items: center;*/
     align-items: center;
 }
 
+main input {
+    font-family: inherit;
+    border-style: none;
+}
+
+main button {
+    border-style: none;
+}
+
 .headline-reg {
-    /*font-family: Dihjauti;*/
+    width: 254px;
+    height: 65px;
     font-size: 40px;
-    /*font-weight: 700;*/
     line-height: 64px;
     color: #000000;
-    /*text-align: right;*/
-
 }
 
 .registration {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 694px;
@@ -97,6 +104,17 @@ main {
 .form {
     display: flex;
     flex-direction: column;
+    gap: 29px;
+    margin-bottom: 80px;
+}
+
+.field {
+    width: 485px;
+    height: 51px;
+    border-radius: 20px;
+    background: #FFFFFFBD;
+    font-size: 24px;
+    padding-left: 30px;
 }
 
 .post {
@@ -128,7 +146,7 @@ footer {
 }
 
 footer a {
-    color: #FFFFFF;
+    color: inherit;
 }
 
 .extended {
