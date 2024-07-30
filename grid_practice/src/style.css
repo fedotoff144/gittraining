@@ -20,6 +20,7 @@
 
 body {
     font-family: Dihjauti, serif;
+    margin: 0;
 }
 
 a {
@@ -61,6 +62,55 @@ header {
 
 header a {
     color: #FFEFCD;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 678px;
+    background: #FFEFCD;
+    /*justify-content: center;*/
+    /*justify-items: center;*/
+    align-items: center;
+}
+
+.headline-reg {
+    /*font-family: Dihjauti;*/
+    font-size: 40px;
+    /*font-weight: 700;*/
+    line-height: 64px;
+    color: #000000;
+    /*text-align: right;*/
+
+}
+
+.registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 694px;
+    height: 545px;
+    border-radius: 100px;
+    background: #C4B09378;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    width: 394px;
+    height: 51px;
+    border-radius: 20px;
+    background: #A58E74E8;
+    font-family: Dihjauti;
+    font-size: 30px;
+    line-height: 51.2px;
+    text-align: center;
+    color: #FFFFFF;
+
+
 }
 
 footer {
