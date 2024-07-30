@@ -71,6 +71,7 @@ main {
     height: 678px;
     background: #FFEFCD;
     align-items: center;
+    justify-content: center;
 }
 
 main input {
@@ -88,6 +89,7 @@ main button {
     font-size: 40px;
     line-height: 64px;
     color: #000000;
+    text-align: center;
 }
 
 .registration {
@@ -96,7 +98,6 @@ main button {
     justify-content: center;
     align-items: center;
     width: 694px;
-    height: 545px;
     border-radius: 100px;
     background: #C4B09378;
 }
@@ -105,7 +106,7 @@ main button {
     display: flex;
     flex-direction: column;
     gap: 29px;
-    margin-bottom: 80px;
+    margin: 70px 0;
 }
 
 .field {
@@ -118,9 +119,11 @@ main button {
 }
 
 .post {
-    width: 394px;
+    /*min-width: 285px;*/
     height: 51px;
     border-radius: 20px;
+    padding: 0 30px;
+    margin-bottom: 75px;
     background: #A58E74E8;
     font-family: Dihjauti;
     font-size: 30px;
