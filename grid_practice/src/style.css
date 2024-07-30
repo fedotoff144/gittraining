@@ -18,34 +18,70 @@
     src: url('font/Dihjauti-BoldItalic.otf');
 }
 
+body {
+    font-family: Dihjauti, serif;
+}
+
 a {
     text-decoration: none;
 }
 
-.footer {
+header {
+    height: 135px;
+    background: #A58E74A6;
+    font-size: 32px;
+    line-height: 51.2px;
+    display: flex;
+    gap: 100px;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 217px;
+    height: 87px;
+    border-radius: 30px;
+    background: #A58E74B5;
+    font-size: 24px;
+    line-height: 38.4px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header a {
+    color: #FFEFCD;
+}
+
+footer {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 450px);
     grid-template-rows: repeat(3, 60px);
-    /*min-width: 1040px;*/
-    /*min-height: 213px;*/
     padding: 15px;
     background: #A58E74C2;
-    font-family: Dihjauti;
     font-size: 32px;
-    /*font-weight: 700;*/
     line-height: 51.2px;
     text-align: center;
     align-items: center;
     color: #FFFFFF;
 }
 
-.footer a {
+footer a {
     color: #FFFFFF;
 }
 
 .extended {
-    /*grid-area: 2/3/4/4;*/
     grid-row: 2 / 4;
     grid-column: 3 / 4;
     font-size: 20px;
