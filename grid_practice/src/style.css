@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Dihjauti';
+    src: url('font/Dihjauti-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Dihjauti-Italic';
+    src: url('font/Dihjauti-Italic.otf');
+}
+
+@font-face {
+    font-family: 'Dihjauti-Bold';
+    src: url('font/Dihjauti-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Dihjauti-BoldItalic';
+    src: url('font/Dihjauti-BoldItalic.otf');
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: repeat(3, 60px);
+    /*min-width: 1040px;*/
+    /*min-height: 213px;*/
+    padding: 15px;
+    background: #A58E74C2;
+    font-family: Dihjauti;
+    font-size: 32px;
+    /*font-weight: 700;*/
+    line-height: 51.2px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer a {
+    color: #FFFFFF;
+}
+
+.extended {
+    /*grid-area: 2/3/4/4;*/
+    grid-row: 2 / 4;
+    grid-column: 3 / 4;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 144px;
+}
