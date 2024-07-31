@@ -28,6 +28,7 @@ a {
     text-decoration: none;
 }
 
+
 /*header*/
 header {
     height: 135px;
@@ -139,30 +140,39 @@ header a {
 /*end registration / login*/
 
 
-/*rules*/
-.rules {
+.common {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.outer-block {
     max-width: 1730px;
     padding: 0 95px;
 }
 
-.rules h1 {
-    margin-top: 20px;
-    font-size: 64px;
-    font-style: italic;
-    line-height: 102.4px;
-    text-align: center;
-}
-
-.rules h4 {
-    margin-bottom: 0;
-    font-size: 32px;
-}
-
-.rules p, ul {
+.common p {
     margin: 0 0 42px 0;
 }
 
+.common h1 {
+    margin: 25px 0;
+    font-size: 64px;
+    font-style: italic;
+    text-align: center;
+}
+
+.common h4 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/*rules*/
+.outer-block ul {
+    margin: 0 0 42px 0;
+}
 /*end rules*/
+
 
 /*footer*/
 footer {
