@@ -167,6 +167,29 @@ header a {
     font-size: 32px;
 }
 
+/*recipe*/
+.pos-relative{
+    border: black 5px solid;
+    position: relative;
+}
+.stable{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.stable-mix{
+    position: absolute;
+    top: 500px;
+    right: 50px;
+}
+.common.headline-recipe {
+    font-size: 96px;
+    font-style: italic;
+    margin: 35px 0 30px 0;
+}
+
+/*end recipe*/
+
 
 /*recipe_categories*/
 .categories-preview {
