@@ -62,6 +62,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 header a {
@@ -122,6 +123,7 @@ header a {
     background: #FFFFFFBD;
     font-size: 24px;
     padding-left: 30px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 .post {
@@ -135,6 +137,7 @@ header a {
     line-height: 51.2px;
     text-align: center;
     color: #FFFFFF;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 /*end registration / login*/
@@ -217,6 +220,7 @@ header a {
     height: 515px;
     overflow: hidden;
     border-radius: 50%;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 .around-img img {
@@ -251,11 +255,69 @@ header a {
     padding: 12px 20px;
     border-radius: 50px;
     background: #FFFFFF99;
-
-
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 /*end recipe*/
+
+
+/*personal area*/
+.personal-area {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 1320px;
+}
+
+.form-lk {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.personal-field {
+    width: 640px;
+    height: 105px;
+    border-radius: 20px;
+    background: #FFFFFFBD;
+    font-family: inherit;
+    font-size: 35px;
+    padding-left: 50px;
+    border: none;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.add-recipe-button {
+    margin: 60px 0;
+    display: flex;
+    background: #AE987D;
+    border-radius: 20px;
+    align-items: center;
+    max-width: 275px;
+    justify-content: center;
+    gap: 40px;
+    color: #FFFFFF;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.add-recipe-button img {
+    width: 42px;
+    height: 42px;
+}
+
+.fix-img-footer {
+    left: 0;
+    position: absolute;
+    top: 820px;
+}
+
+.min-height {
+    min-height: 1365px;
+
+}
+
+/*end personal area*/
 
 
 /*recipe_categories*/
@@ -285,7 +347,7 @@ header a {
     width: 290px;
     height: 290px;
     border-radius: 145px;
-
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 /*end recipe_categories*/
