@@ -168,7 +168,10 @@ header a {
 
 /*main*/
 .outer-block-slim {
+    display: flex;
     max-width: 1440px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .top {
@@ -184,7 +187,6 @@ header a {
     font-size: 32px;
     font-style: italic;
     text-align: right;
-    /*border: aqua 2px solid;*/
 }
 
 .marker {
@@ -192,11 +194,64 @@ header a {
 }
 
 .preview-of-recipe {
+    width: 1190px;
+    display: flex;
+    align-items: center;
     font-size: 32px;
     font-style: italic;
     text-align: right;
+    gap: 30px;
 }
 
+.preview-of-recipe p {
+    overflow: hidden;
+    width: 650px;
+    height: 325px;
+}
+
+.preview-of-recipe span {
+    font-size: 48px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.social-media{
+    margin-top: 100px;
+    height: 260px;
+    width: 100%;
+    background: #A58E7430;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.social-media h2 {
+    padding: 0;
+    margin: 15px 0 55px 0;
+    font-size: 36px;
+}
+
+.icons{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 28px;
+}
+
+.unit{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex-direct-col{
+    flex-direction: column;
+    align-items: center;
+}
 /*end main*/
 
 /*recipe*/
@@ -241,7 +296,6 @@ header a {
     flex-direction: column;
     align-items: center;
     margin-top: -50px;
-    /*max-width: 820px;*/
 }
 
 .around-img {
@@ -299,7 +353,7 @@ header a {
     width: 1320px;
 }
 
-.form-lk {
+.form-pa {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -347,7 +401,6 @@ header a {
 
 .min-height {
     min-height: 1365px;
-
 }
 
 /*end personal area*/
@@ -358,7 +411,6 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .recipe-name {

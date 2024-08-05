@@ -23,7 +23,7 @@
     </div>
 </header>
 
-<main class="common">
+<main class="common flex-direct-col">
     <section class="outer-block-slim">
         <div class="top">
             <p>
@@ -36,7 +36,7 @@
         <h1>Лучшие рецепты</h1>
 
         <div class="preview-of-recipe">
-            <img src="img/honeycake.png" alt="honeymoon">
+            <div class="around-img"><img src="img/roasted-pork-steak-vegetables-plate.jpg" alt="recipe"></div>
             <p>
                 <span>Медовик</span><br>
                 «Медовик» - один из самых известных десертов классической русской кухни. Он был
@@ -44,8 +44,8 @@
                 огромной любовью во всём мире.
             </p>
         </div>
-        <div class="preview-of-recipe">
-            <img src="img/cheese_cake.png" alt="cheesecake">
+        <div class="preview-of-recipe reverse">
+            <div class="around-img"><img src="img/cheese_cake.png" alt="recipe"></div>
             <p>
                 <span>Тирамису</span><br>
                 «Тирамису» – известный десерт. У слова 3 части – tira mi su. Дословно – «поднимай
@@ -54,32 +54,57 @@
                 мне настроение».
             </p>
         </div>
+        <div class="preview-of-recipe">
+            <div class="around-img"><img src="img/roasted-pork-steak-vegetables-plate.jpg" alt="recipe"></div>
+            <p>
+                <span>Медовик</span><br>
+                «Медовик» - один из самых известных десертов классической русской кухни. Он был
+                рождён на кухне императорского дворца около двухсот лет назад и с тех пор пользуется
+                огромной любовью во всём мире.
+            </p>
+        </div>
+        <div class="preview-of-recipe reverse">
+            <div class="around-img"><img src="img/cheese_cake.png" alt="recipe"></div>
+            <p>
+                <span>Тирамису</span><br>
+                «Тирамису» – известный десерт. У слова 3 части – tira mi su. Дословно – «поднимай
+                меня вверх». Многие считают, что такое название появилось из-за большого количества
+                калорий в десерте. А многие уверены, что название касается эмоций, то есть «подними
+                мне настроение».
+            </p>
+        </div>
+        <div class="preview-of-recipe">
+            <div class="around-img"><img src="img/roasted-pork-steak-vegetables-plate.jpg" alt="recipe"></div>
+            <p>
+                <span>Медовик</span><br>
+                «Медовик» - один из самых известных десертов классической русской кухни. Он был
+                рождён на кухне императорского дворца около двухсот лет назад и с тех пор пользуется
+                огромной любовью во всём мире.
+            </p>
+        </div>
 
-        <form class="add-recipe-form">
-            <div class="description-field">
-                <p>
-                    Укажите ингридиенты, которые необходимы для приготовления и подачи данного
-                    блюда. Каждый ингридиент указывайте с новой строки.
-                </p>
-                <label for="ingredients"></label>
-                <textarea class="big-text" name="steps" id="ingredients"
-                          placeholder="Ингридиенты"></textarea>
+
+    </section>
+    <section class="social-media">
+        <h2>Присоединяйтесь к нам в социальных сетях</h2>
+        <div class="icons">
+            <div class="unit">
+                <img src="img/vk.png" alt="social media">
+                <span>ВКОНТАКТЕ</span>
             </div>
-            <div class="description-field">
-                <p>
-                    Пошаговая иструкция поможет начинающим приготовить ваш рецепт. Мы рекомендуем
-                    разбивать рецепт минимум на 5 шагов. Каждый шаг указывайте с новой строки.
-                </p>
-                <label for="steps"></label>
-                <textarea class="big-text" name="steps" id="steps"
-                          placeholder="Пошаговая инструкция"></textarea>
+            <div class="unit">
+                <img src="img/instagram.png" alt="social media">
+                <span>INSTAGRAM</span>
             </div>
-            <div class="recipe-main-info add-recipe-image">
-                <label for="recipe-image">Изображение рецепта</label>
-                <input type="file" id="recipe-image" alt="image for recipe">
+            <div class="unit">
+                <img src="img/telegramm.png" alt="social media">
+                <span>TELEGRAM</span>
             </div>
-            <input class="post send-button" type="submit" value="Отправить на модерацию">
-        </form>
+            <div class="unit">
+                <img src="img/whats_app.png" alt="social media">
+                <span>WHATSAPP</span>
+            </div>
+        </div>
     </section>
 </main>
 
