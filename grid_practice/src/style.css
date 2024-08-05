@@ -166,6 +166,39 @@ header a {
     font-size: 32px;
 }
 
+/*main*/
+.outer-block-slim {
+    max-width: 1440px;
+}
+
+.top {
+    width: 1388px;
+    height: 416px;
+    background-image: url("img/top-view-delicious-chocolate-cupcakes.png");
+    margin: 0 auto;
+    padding: 0 26px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 32px;
+    font-style: italic;
+    text-align: right;
+    /*border: aqua 2px solid;*/
+}
+
+.marker {
+    font-size: 64px;
+}
+
+.preview-of-recipe {
+    font-size: 32px;
+    font-style: italic;
+    text-align: right;
+}
+
+/*end main*/
+
 /*recipe*/
 .outer-block-recipe {
     max-width: 1350px;
