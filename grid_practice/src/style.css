@@ -129,13 +129,9 @@ header a {
 .post {
     height: 51px;
     border-radius: 20px;
-    padding: 0 30px;
-    margin-bottom: 75px;
+    margin-top: 45px;
     background: #A58E74E8;
-    font-family: inherit;
     font-size: 30px;
-    line-height: 51.2px;
-    text-align: center;
     color: #FFFFFF;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
@@ -306,6 +302,10 @@ header a {
     height: 42px;
 }
 
+.add-recipe-button a {
+    color: inherit;
+}
+
 .fix-img-footer {
     left: 0;
     position: absolute;
@@ -318,6 +318,87 @@ header a {
 }
 
 /*end personal area*/
+
+
+/*add recipe*/
+.add-recipe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.recipe-name {
+    font-family: inherit;
+    font-size: 40px;
+    background: #FFFFFFBD;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.recipe-main-info {
+    margin: 65px 0 95px 0;
+    min-width: 1300px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.main-info-field {
+    height: 65px;
+    width: 200px;
+    padding: 0 25px;
+    border-radius: 20px;
+    border: 1px solid;
+    font-family: inherit;
+    font-size: inherit;
+    background: #FFFFFFBD;
+}
+
+.description-field {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    gap: 55px;
+}
+
+.big-text {
+    min-width: 720px;
+    min-height: 320px;
+    font-family: inherit;
+    font-size: 40px;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 40px;
+    background: #FFFFFFBD;
+}
+
+.add-recipe-image {
+    margin-top: 15px;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+}
+
+.add-recipe-image input {
+    font-family: inherit;
+    font-size: 24px;
+}
+
+.send-button {
+    font-family: inherit;
+    font-size: 36px;
+    color: #000000;
+    margin: 0 0 65px 0;
+    padding: 0 45px;
+    background: #FFFFFFBD;
+    height: auto;
+}
+
+/*end add recipe*/
 
 
 /*recipe_categories*/
