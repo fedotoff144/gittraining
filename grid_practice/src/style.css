@@ -215,6 +215,7 @@ header a {
 
 .reverse {
     flex-direction: row-reverse;
+    text-align: left;
 }
 
 .social-media {
