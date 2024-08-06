@@ -34,12 +34,13 @@
                 <div>
                     <label for="quantity">Количество порций<br>
                         <input class="main-info-field" type="text" id="quantity"
-                               name="quantity dishes">
+                               name="quantity dishes" required>
                     </label>
                 </div>
                 <div>
                     <label for="time">Время приготовления<br>
-                        <input class="main-info-field" type="text" id="time" name="time"> минут
+                        <input class="main-info-field" type="text" id="time" name="time" required>
+                        минут
                     </label>
                 </div>
             </div>
@@ -60,6 +61,17 @@
                 <label for="steps"></label>
                 <textarea class="big-text" name="steps" id="steps"
                           placeholder="Пошаговая инструкция"></textarea>
+            </div>
+            <div class="recipe-main-info choice">
+                <label for="categories">Выберите категорию рецепта </label>
+                <select id="categories" required>
+                    <option value="none"></option>
+                    <option value="cakes">Торты</option>
+                    <option value="pies">Пироги</option>
+                    <option value="cookies">Печенье</option>
+                    <option value="cupcakes">Капкейки</option>
+                    <option value="not_sweet_bakes">Несладкая выпечка</option>
+                </select>
             </div>
             <div class="recipe-main-info add-recipe-image">
                 <label for="recipe-image">Изображение рецепта</label>
