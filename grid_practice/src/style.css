@@ -136,6 +136,12 @@ header a {
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
+a.post {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
 /*end registration / login*/
 
 
